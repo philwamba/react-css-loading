@@ -1,20 +1,36 @@
 {
-  "name": "react-css-loading",
-  "version": "1.0.0",
-  "description": "CSS loading spinner for React.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/philwamba/react-css-loading.git"
-  },
-  "keywords": ["react", "css", "loading"],
-  "author": "Phil Wamba",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/philwamba/react-css-loading/issues"
-  },
-  "homepage": "https://github.com/philwamba/react-css-loading#readme"
+    "name": "react-css-loading",
+    "version": "1.0.0",
+    "description": "CSS loading spinner for React.",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint \"**/*.js\"",
+        "lint:fix": "prettier-eslint \"**/*.js\" --write"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/philwamba/react-css-loading.git"
+    },
+    "keywords": [
+        "react",
+        "css",
+        "loading"
+    ],
+    "author": "Phil Wamba",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/philwamba/react-css-loading/issues"
+    },
+    "homepage": "https://github.com/philwamba/react-css-loading#readme",
+    "devDependencies": {
+        "eslint": "^6.4.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^10.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-react": "^7.14.3",
+        "eslint-plugin-standard": "^4.0.1",
+        "prettier-eslint": "^9.0.0",
+        "prettier-eslint-cli": "^5.0.0"
+    }
 }
