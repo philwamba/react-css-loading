@@ -1,0 +1,20 @@
+{
+  "name": "react-css-loading",
+  "version": "1.0.0",
+  "description": "CSS loading spinner for React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philwamba/react-css-loading.git"
+  },
+  "keywords": ["react", "css", "loading"],
+  "author": "Phil Wamba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philwamba/react-css-loading/issues"
+  },
+  "homepage": "https://github.com/philwamba/react-css-loading#readme"
+}
