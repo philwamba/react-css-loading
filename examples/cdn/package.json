@@ -1,0 +1,14 @@
+{
+    "name": "cdn",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "serve": "serve"
+    },
+    "dependencies": {
+        "react-css-loading": "file:../.."
+    },
+    "devDependencies": {
+        "serve": "^11.2.0"
+    }
+}
