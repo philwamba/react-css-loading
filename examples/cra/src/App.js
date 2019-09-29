@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
-import { Ellipsis } from 'react-css-loading'
+import { Ellipsis, Ring } from 'react-css-loading'
 
 class App extends Component {
   render () {
-    return <Ellipsis />
+    return (
+      <>
+        <Ellipsis /> <Ring />
+      </>
+    )
   }
 }
 

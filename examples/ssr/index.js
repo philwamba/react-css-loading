@@ -1,13 +1,15 @@
-const { createElement } = require('react')
+const { Fragment, createElement } = require('react')
 const express = require('express')
 const { renderToString } = require('react-dom/server')
-const { Ring } = require('react-css-loading')
+const { Ellipsis, Ring } = require('react-css-loading')
 
 const port = 3000
 const app = express()
 
 app.get('*', (req, res) => {
-  const html = renderToString(createElement(Ring))
+  const html = renderToString(
+    createElement(Fragment, null, createElement(Ellipsis), createElement(Ring))
+  )
 
   res.send(`
     <!DOCTYPE html>
